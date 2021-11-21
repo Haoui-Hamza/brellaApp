@@ -440,7 +440,7 @@ class Player {
 		colour = colours[Math.floor(Math.random() * colours.length)];
 
 		if (options === undefined) {
-			const people = ['BeachBabe', 'BusinessMan', 'Doctor', 'FireFighter', 'Housewife', 'Policeman', 'Prostitute', 'Punk', 'RiotCop', 'Roadworker', 'Robber', 'Sheriff', 'Streetman', 'Waitress'];
+			const people = ['BeachBabe', 'BusinessMan', 'Doctor', 'FireFighter', 'Housewife', 'Policeman', 'Punk', 'RiotCop', 'Roadworker', 'Robber', 'Sheriff', 'Streetman'];
 			var url = new URL(window.location.href);
 			console.log(url.searchParams.get("modal"))
 			if(people.includes(url.searchParams.get("modal"))){
